@@ -146,34 +146,3 @@ body{
     border: 3px solid aquamarine;
     box-shadow: 1px 1px 25px 7px aqua;
 }
-.screen .cache1{
-    float: left;
-    position: relative;
-    height: 200px;
-    width: 10px;
-    background-color: #000;
-    z-index: 1000;
-    border-top-left-radius: 50px;
-    left: -3%;
-}
-.screen .cache{
-    float: left;
-    position: relative;
-    height: 200px;
-    width: 2%;
-    background-color: #010653;
-    z-index: 1000;
-    top: -3%;
-    left: -3.2%;
-    border-top-left-radius: 30px;
-}
-.cache2{
-    float: left;
-    position: relative;
-    height: 100px;
-    width: 1%;
-    background-color: #DBDBDB;
-    z-index: 1000;
-    top: 5%;
-    left: -1%;
-}
