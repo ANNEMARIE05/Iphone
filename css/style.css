@@ -167,3 +167,13 @@ body{
     left: -3.2%;
     border-top-left-radius: 30px;
 }
+.cache2{
+    float: left;
+    position: relative;
+    height: 100px;
+    width: 1%;
+    background-color: #DBDBDB;
+    z-index: 1000;
+    top: 5%;
+    left: -1%;
+}
