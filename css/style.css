@@ -84,15 +84,6 @@ body{
     border: 4px solid #dbdbdb23;
 
 }
-.btn{
-    height: 50px;
-    float: right;
-    position: relative;
-    top: 23%;
-    right: 17%;
-    border: 1.5px solid #DBDBDB;
-    background-color: #FCF3CF;
-}
 .apple{
     height: 80px;
     width: 60px;
