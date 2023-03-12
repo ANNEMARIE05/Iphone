@@ -8,23 +8,32 @@ body{
 }
 .iphone{
     margin: 7% auto;
-    width: 50%;
+    width: 600px;
     height: 650px;
     display: flex;
     border-radius: 20px;
 }
 .iphone-fermerture{
-    width: 45%;
+    width: 250px;
     background-color:#AEB8C0;
     border: 4px solid #a0a0a0;
     border-radius: 35px;
 }
+.iphone-fermerture .btn{
+    float: right;
+    height: 50px;
+    position: relative;
+    right: 46px;
+    top: 120px;
+    border: 2px solid #DBDBDB;
+}
 .iphone-ecran{
-    width: 55%;
+    width: 350px;
     background-color: #000;
     position: relative;
     left: -50px;
     border-radius: 40px;
+    justify-self: center;
     border: 3px solid #DBDBDB;
 }
 .camera{
@@ -102,28 +111,38 @@ body{
     height: 80px;
     width: 60px;
     float: right;
-    margin: 40% 17%;
+    margin: 105px 50px;
 }
 .apple span i{
     color: gray;
     font-size: 80px;
 }
 .screen{
-    height: 610px;
-    width: 93%;
+    height: 615px;
+    width: 320px;
     background-color: #010653;
-    margin: 5% 3%;
     border-radius: 30px;
     overflow: hidden;
+    margin: 12px;
 }
-.en-tete{
-    width: 50%;
-    height: 40px;
-    margin: 0 25%;
+.en-tete .trait{
+    height: 12px;
+    margin: 0 10px;
+    width: 120px;
+    border-radius: 20px;
+    background-color: #151616b4;
+    border: 1px solid #ffffff28;
+}
+.screen .en-tete{
+    width: 190px;
+    height: 25px;
+    display: flex ;
+    padding: 3px;
+    justify-content: center;
     background-color: #000;
-    border-bottom-right-radius: 30px;
-    border-bottom-left-radius: 30px;
-    padding: 2% 5%;
+    border-bottom-right-radius: 20px;
+    margin: 0 65px;
+    border-bottom-left-radius: 20px;
 }
 .screen .contenu{
     width: 100%;
@@ -133,24 +152,29 @@ body{
     flex-direction: column;
     justify-content: space-around;
 }
-.screen span{
-    background-color: #17202a60;
-    padding: 0.5% 7%;
-    border-radius: 50%;
+.en-tete .span{
+    height: 13px;
+    width: 13px;
+    border-radius: 50px;
+    border: 1px solid #fff;
+    background-color: #aaaaaa94;
 }
 .lumiere-side{
     height: 5px;
-    width: 70%;
+    width: 65%;
     background: black;
-    
+    box-shadow: 1px 1px 15px 10px #000;
 }
 .screen .lumiere{
     height: 5px;
-    width: 90%;
-    border: 3px solid aquamarine;
-    background: aquamarine;
-    box-shadow: 0 0 25px aqua;
+    background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0));
+    width: 80%;
+    border: 3px solid rgb(127, 193, 255);
+    box-shadow: 0 0 25px 10px rgb(0, 110, 255);
     margin: 0 auto;
+}
+.lumiere-side span{
+    border: 5px solid #000;
 }
 .barre1{
     transform: rotate(40deg);
